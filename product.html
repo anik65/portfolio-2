@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!--css flies-->
+    <!--all.css-->
+    <link rel="stylesheet" href="assets/css/all.css">
+    <!--bootstrap.css-->
+    <link rel="stylesheet" href="assets/libs/bootstrap/bootstrap.css">
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--fontawesome.css-->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--fontawesome.css-->
+    <!--aos.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+
+<!--====================================================-->
+
+<body id="main_body" style="font-family: 'Montserrat', sans-serif;">
+
+    <!--====================================================-->
+    <div class="main_loader">
+        <div class="sub_loader">
+            <div class="spinner_one"></div>
+            <div class="spinner_two"></div>
+        </div>
+    </div>
+    <header id="header">
+        <div class="small_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <ul class="perso_info">
+                            <li><img src="assets/img/Mail Ico.png" alt="" class="img-fluid"> www.hyper152@gmail.com</li>
+                            <li><img src="assets/img/Phone Ico.png" alt="" class="img-fluid"> 01701829835</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <ul class="social_links">
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="header_ruler">
+        <div class="large_header">
+            <div class="header_nav">
+                <nav class="navbar-expand-md">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-3">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/Logo.png" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-5">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarsExample03" aria-controls="navbarsExample03"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarsExample03">
+                                    <ul class="navbar-nav">
+                                        <li>
+                                            <a class="nav_link" href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav_link" href="product.html">Products</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav_link" href="#">Hot Deals</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav_link" href="#">About</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav_link" href="#">Contact</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-4">
+                                <ul class="activity">
+                                    <li type="button">
+                                        <img src="assets/img/Search Ico.png" alt="" class="img-fluid">
+                                    </li>
+                                    <li type="button">
+                                        <img src="assets/img/User Ico.png" alt="" class="img-fluid">
+                                    </li>
+                                    <li type="button">
+                                        <img src="assets/img/Cart Ico.png" alt="" class="img-fluid">
+                                        <span class="counter">5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--====================================================-->
+
+    <section id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-3 col-6">
+                            <div class="categories">
+                                <h3>Categories</h3>
+                                <ul>
+                                    <li><a href="">Man</a></li>
+                                    <li><a href="">Women</a></li>
+                                    <li><a href="">Childrens</a></li>
+                                    <li><a href="">Hot Deals</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-3 col-6">
+                            <div class="price">
+                                <h3>Price Filtter</h3>
+                                <div class="row">
+                                    <div class="col-lg-9 col-md-10">
+                                        <p>
+                                            <input type="text" id="amount">
+                                        </p>
+                                        <div id="slider-range"></div>
+                                    </div>
+                                </div>
+                                <div class="price_box">
+                                    <label for="">From</label>
+                                    <input type="number">
+                                    <label for="">To</label>
+                                    <input type="number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-3 col-6">
+                            <div class="size">
+                                <h3>Sizes</h3>
+                                <ul class="size_list ">
+                                    <li type="button">
+                                        <span><img src="assets/img/non-active.png"></span>Small
+                                    </li>
+                                    <li type="button">
+                                        <span><img src="assets/img/non-active.png"></span>Medium
+                                    </li>
+                                    <li type="button">
+                                        <span><img src="assets/img/non-active.png"></span>Larg
+                                    </li>
+                                    <li type="button">
+                                        <span><img src="assets/img/non-active.png"></span>X Larg
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-3 col-6">
+                            <div class="size">
+                                <h3>Brands</h3>
+                                <ul class="size_list ">
+                                    <li type="button">
+                                        <span><img src="assets/img/non-active.png"></span>Reebook
+                                    </li>
+                                    <li type="button">
+                                        <span><img src="assets/img/non-active.png"></span>Addidas
+                                    </li>
+                                    <li type="button">
+                                        <span><img src="assets/img/non-active.png"></span>Nike
+                                    </li>
+                                    <li type="button">
+                                        <span><img src="assets/img/non-active.png"></span>Active
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <a href="single-product.html">
+                                    <img src="assets/products/Product-2.png" alt="" class="img-fluid">
+                                </a>
+                                <p>Reebok Track Jacket</p>
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <div class="new_hot_product">
+                                    <div class="new_product_slider owl-carousel owl-theme">
+                                        <div class="single_new text-center">
+                                            <img src="assets/products/Product-3.png" alt="" class="img-fluid">
+                                            <p>Reebok Track Jacket</p>
+                                            <p>sizes : s - m - l - xl</p>
+                                        </div>
+                                        <div class="single_new text-center">
+                                            <img src="assets/products/Product-3.png" alt="" class="img-fluid">
+                                            <p>Reebok Track Jacket</p>
+                                            <p>sizes : s - m - l - xl</p>
+                                        </div>
+                                        <div class="single_new text-center">
+                                            <img src="assets/products/Product-3.png" alt="" class="img-fluid">
+                                            <p>Reebok Track Jacket</p>
+                                            <p>sizes : s - m - l - xl</p>
+                                        </div>
+                                        <div class="single_new text-center">
+                                            <img src="assets/products/Product-3.png" alt="" class="img-fluid">
+                                            <p>Reebok Track Jacket</p>
+                                            <p>sizes : s - m - l - xl</p>
+                                        </div>
+                                    </div>
+                                    <hr class="Slider_ruler">
+                                    <div class="product_icon">
+                                        <a href=""> <img src="assets/products/product_icon_1.png" alt=""></a>
+                                        <a href=""> <img src="assets/products/product_icon_2.png" alt=""></a>
+                                        <a href=""> <img src="assets/products/product_icon_3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <a href="single-product.html">
+                                    <img src="assets/products/Product-4.png" alt="" class="img-fluid">
+                                </a>
+                                <p>Reebok Track Jacket</p>
+                                <p>$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <a href="single-product.html">
+                                    <img src="assets/products/Product-2.png" alt="" class="img-fluid">
+                                </a>
+                                <p>Reebok Track Jacket</p>
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <a href="single-product.html">
+                                    <img src="assets/products/Product-1.png" alt="" class="img-fluid">
+                                </a>
+                                <p>Reebok Track Jacket</p>
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <a href="single-product.html">
+                                    <img src="assets/products/Product-4.png" alt="" class="img-fluid">
+                                </a>
+                                <p>Reebok Track Jacket</p>
+                                <p>$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <a href="single-product.html">
+                                    <img src="assets/products/Product-4.png" alt="" class="img-fluid">
+                                </a>
+                                <p>Reebok Track Jacket</p>
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <a href="single-product.html">
+                                    <img src="assets/products/Product-1.png" alt="" class="img-fluid">
+                                </a>
+                                <p>Reebok Track Jacket</p>
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="products text-center Shadow">
+                                <a href="single-product.html">
+                                    <img src="assets/products/Product-2.png" alt="" class="img-fluid">
+                                </a>
+                                <p>Reebok Track Jacket</p>
+                                <p>$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="load_button text-center">
+                        <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================================================-->
+
+    <section id="about">
+        <div class="container">
+            <div class="about_body">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="about_des">
+                            <p><span>NEWS LETTER</span>join us now to get all news and special offers</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="about_form">
+                            <label for="">
+                                <img src="assets/img/Mail Ico.png" alt="" class="img-fluid">
+                            </label>
+                            <input type="email" id="email" placeholder="type your email here">
+                            <input type="submit" id="submit" value="join us">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================================================-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-2 col-12">
+                    <div class="footer_logo">
+                        <a href="">
+                            <img src="assets/img/Logo.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-10 col-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <ul class="footer_list">
+                                <li><a href=""><i class="fas fa-circle"></i> about us</a></li>
+                                <li><a href=""><i class="fas fa-circle"></i> contact us</a></li>
+                                <li><a href=""><i class="fas fa-circle"></i> support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <ul class="footer_list">
+                                <li><a href=""><i class="fas fa-circle"></i> our feed</a></li>
+                                <li><a href=""><i class="fas fa-circle"></i> terms and conditions</a></li>
+                                <li><a href=""><i class="fas fa-circle"></i> our privacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <ul class="footer_list">
+                                <li><a href=""><i class="fas fa-circle"></i> join us</a></li>
+                                <li><a href=""><i class="fas fa-circle"></i> live support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <div class="payment">
+                                <h3>Payment Methods</h3>
+                                <img src="assets/img/Payment Images.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--====================================================-->
+    <!--js plugins-->
+    <!--jquery.min.js-->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--bootstrap.min.js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/js/style.js"></script>
+    <script>
+        document.querySelectorAll(".size_list li span").forEach((e) => {
+            e.addEventListener("click", function () {
+                e.classList.toggle("active");
+                if (e.classList.contains("active")) {
+                    e.innerHTML = "<img src='assets/img/active.png'>"
+                } else {
+                    e.innerHTML = "<img src='assets/img/non-active.png'>"
+                }
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>
